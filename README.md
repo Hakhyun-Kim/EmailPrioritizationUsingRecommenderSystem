@@ -1,10 +1,21 @@
-MBoxParser
-Enviroment
+[Python IDE for windows]
+1. Visual studio Express 2013 (Student version(dreamspark) will allow you to access pro version of visual studio)
+http://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx
+https://www.dreamspark.com/
 
-1. Visual studio pro 2013 (maybe dreamspark)
-
-2. PyTools plugin fro Visual Studio
+2. PyTools plugin for Visual Studio
 http://pytools.codeplex.com/ 
+
+[Python install]
+Python 2.7.6 : https://www.python.org/download/releases/2.7.6/
+
+PIP(Package manager) : https://raw.githubusercontent.com/pypa/pip/master/contrib/get-pip.py
+
+Put Scripts folder(C:\Python27\Scripts) into your environment path
+http://stackoverflow.com/questions/6318156/adding-python-path-on-windows-7
+http://stackoverflow.com/questions/9546324/adding-directory-to-path-environment-variable-in-windows
+
+[Source sample]
 
 3. MBox Parser
 
