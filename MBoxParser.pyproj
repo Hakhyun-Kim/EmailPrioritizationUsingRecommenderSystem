@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>303fafce-fd42-4285-8bc3-c73589e73a68</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AnovaSVM.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +23,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AnovaSVM.py" />
     <Compile Include="IMAP_Parser.py" />
+    <Compile Include="KNearest.py" />
     <Compile Include="MBoxParser.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
