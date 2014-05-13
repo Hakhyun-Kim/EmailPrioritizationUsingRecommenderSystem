@@ -17,16 +17,20 @@ http://stackoverflow.com/questions/9546324/adding-directory-to-path-environment-
 
 [Source sample]
 
-3. MBox Parser
+Most samples revised the code from 
+http://scikit-learn.org/stable/
 
+1. IMap Parser
+	Parse directly from gmail server
+
+2. MBox Parser
+	
 	3.1 download mbox file(probably by using gmail export)
 		https://www.google.com/settings/takeout/custom/gmail 
 
 	3.2 mbox parser sample
 		http://googleappsdeveloper.blogspot.kr/2011/11/parsing-exported-mailboxes-using-python.html
 
-4. IMap Parser
-	Parse directly from gmail server
 
 
 
