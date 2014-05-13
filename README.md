@@ -28,10 +28,6 @@ C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\Shortcuts\Deve
 http://sourceforge.net/projects/scipy/
 http://sourceforge.net/projects/numpy/files/
 
-
-> pip install numpy
-> 
-
 [Source sample]
 
 3. MBox Parser
@@ -45,6 +41,15 @@ http://sourceforge.net/projects/numpy/files/
 4. IMap Parser
 	Parse directly from gmail server
 
+5. Other samples
+	http://scikit-learn.org/stable/auto_examples/index.html
 
+
+[Learning Python]
+1. Basic
+	https://www.udacity.com/course/cs101
+
+2. Advanced(for data science)
+	https://www.udacity.com/course/ud359
 
 ==========
