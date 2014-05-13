@@ -13,7 +13,20 @@ PIP(Package manager) : https://raw.githubusercontent.com/pypa/pip/master/contrib
 
 Put Scripts folder(C:\Python27\Scripts) into your environment path
 http://stackoverflow.com/questions/6318156/adding-python-path-on-windows-7
+
+install libraries(win32)
+
 http://stackoverflow.com/questions/9546324/adding-directory-to-path-environment-variable-in-windows
+http://sourceforge.net/projects/scikit-learn/files/scikit-learn-0.14.1.win32-py2.7.exe/download
+http://matplotlib.org/downloads.html
+
+run cmd(command line tool)
+Visual studio command line tool will be favorite
+
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\Shortcuts\Developer Command Prompt for VS2013
+
+http://sourceforge.net/projects/scipy/
+http://sourceforge.net/projects/numpy/files/
 
 [Source sample]
 
@@ -32,6 +45,15 @@ http://scikit-learn.org/stable/
 		http://googleappsdeveloper.blogspot.kr/2011/11/parsing-exported-mailboxes-using-python.html
 
 
+5. Other samples
+	http://scikit-learn.org/stable/auto_examples/index.html
 
+
+[Learning Python]
+1. Basic
+	https://www.udacity.com/course/cs101
+
+2. Advanced(for data science)
+	https://www.udacity.com/course/ud359
 
 ==========

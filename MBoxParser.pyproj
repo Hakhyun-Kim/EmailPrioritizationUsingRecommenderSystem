@@ -26,6 +26,7 @@
     <Compile Include="KNearest.py" />
     <Compile Include="MBoxParser.py" />
     <Compile Include="PageRank.py" />
+    <Compile Include="SVM.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
