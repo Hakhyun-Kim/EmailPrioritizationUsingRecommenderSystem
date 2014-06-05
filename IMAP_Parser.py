@@ -47,10 +47,17 @@ for i in id_list:
 	else:
 		email_receiverDict[receiver_address] = 1
 
-print 'send list'
-for key, value in email_senderDict.iteritems():
-	print 'to', key, value, 'emails sent'
+#print 'sender list'
+#for key, value in email_senderDict.iteritems():
+#	print 'to', key, value, 'emails sent'
 
-print 'receiver list'
-for key, value in email_receiverDict.iteritems():
-	print 'from', key, value, 'emails received'
+#print 'receiver list'
+#for key, value in email_receiverDict.iteritems():
+#	print 'from', key, value, 'emails received'
+
+print 'match list'
+for key, value in email_senderDict.iteritems():
+    if key in email_receiverDict:
+        print key,'send count', value, 'receive count', email_receiverDict[key]
+
+ 
