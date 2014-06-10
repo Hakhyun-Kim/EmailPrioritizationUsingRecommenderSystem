@@ -5,11 +5,12 @@ import sys
 import email
 import re
 
-#sample important email : Professor Lee. 
-
-
 def knearest(sendcount, receivercount):
-		return (sendcount-9)*(sendcount-9)+(receivercount-3)(receivercount-3);
+		#ratio normailze : 8:2(4:1)
+		v = 5.0 / (sendcount + receivercount)
+		sendcount = sendcount*v
+		receivercount = receivercount*v
+		return (sendcount-4)*(sendcount-4)+(receivercount-1)*(receivercount-1);
 
 from collections import defaultdict
 
@@ -46,9 +47,6 @@ for LOGIN in LOGINDATA:
 					sender_address = re.sub(r'[<>]','',sender)
 					receiver_address = re.sub(r'[<>]','',receiver)
 			
-		#print 'sender: ' + sender_address
-		#print 'receiver: ' + receiver_address 
-
 		if sender_address in email_senderDict:
 			email_senderDict[sender_address] += 1
 		else:
@@ -59,20 +57,9 @@ for LOGIN in LOGINDATA:
 		else:
 			email_receiverDict[receiver_address] = 1
 
-	#mail.close()
-	#mail.shutdown()
-	#print 'sender list'
-	#for key, value in email_senderDict.iteritems():
-	#	print 'to', key, value, 'emails sent'
-
-	#print 'receiver list'
-	#for key, value in email_receiverDict.iteritems():
-	#	print 'from', key, value, 'emails received'
 
 	print 'match list'
-
+	
 	for key, value in email_senderDict.iteritems():
 		if key in email_receiverDict:
-			if ( knearest(value,email_receiverDict[key]) > 5 ):
-				print' Would like to add','key', 'address to be your important email address?'
-			print key,'send count', value, 'receive count', email_receiverDict[key],'nearest point:', knearest(key,value)
+			print key,'send count', value, 'receive count', email_receiverDict[key],'nearest point:', knearest(value,email_receiverDict[key])
