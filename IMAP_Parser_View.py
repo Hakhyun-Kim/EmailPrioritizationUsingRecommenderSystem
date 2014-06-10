@@ -16,7 +16,7 @@ from collections import defaultdict
 
 #FOLDER=sys.argv[1]
 FOLDER='Inbox'
-LOGINDATA = {'hakhyun.kim@sunykorea.ac.kr','hakhyun.kim@stonybrook.edu'}
+LOGINDATA = {'email address','email address'}
 PASSWORD='password'
 IMAP_HOST = 'imap.gmail.com'
 
